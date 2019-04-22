@@ -1,0 +1,56 @@
+{
+  "name": "@ismatjon/angular-data-table",
+  "version": "0.1.5",
+  "description": "An Angular 7 data table, with pagination, sorting, expandable rows etc.",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular7",
+    "Angular 2",
+    "Angular 7",
+    "ng2",
+    "ng7",
+    "datatable",
+    "data-table",
+    "data table",
+    "pagination",
+    "sorting",
+    "row selection",
+    "expandable rows",
+    "column resizing",
+    "selecting visible columns"
+  ],
+  "main": "src/index.ts",
+  "typings": "src/index.ts",
+  "scripts": {
+    "packgr": "ng-packagr -p package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismatjon/angular-data-table.git"
+  },
+  "homepage": "https://github.com/ismatjon/angular-data-table#readme",
+  "author": "Ismatjon <kalandarov.ismat@gmail.com>",
+  "license": "MIT",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    }
+  },
+  "whitelistedNonPeerDependencies": {
+    "@angular/common": "^7.2.13",
+    "@angular/compiler": "^7.2.13",
+    "@angular/core": "^7.2.13",
+    "@angular/forms": "^7.2.13",
+    "zone.js": "^0.8.29"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^7.2.13",
+    "ng-packagr": "^5.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ismatjon/angular-data-table/issues"
+  }
+}

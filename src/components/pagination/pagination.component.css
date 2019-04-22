@@ -1,0 +1,40 @@
+.pagination-box {
+  position: relative;
+  margin-top: -10px;
+}
+
+.pagination-range {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.pagination-range span {
+  margin: 0 4px;
+}
+
+.pagination-range span:last-child {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+.pagination-controllers input {
+  min-width: 60px;
+  /*padding: 1px 0px 0px 5px;*/
+  text-align: right;
+}
+
+.pagination-limit {
+  margin-right: 25px;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.pagination-page {
+  width: 110px;
+}
+
+.pagination-reload {
+  color: gray;
+  font-size: 12px;
+}
